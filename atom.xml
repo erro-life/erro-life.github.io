@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ErroLife</title>
   
-  
+  <subtitle>在黑夜向往光明</subtitle>
   <link href="http://erro.life/atom.xml" rel="self"/>
   
   <link href="http://erro.life/"/>
