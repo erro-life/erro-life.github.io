@@ -220,13 +220,17 @@
           
             
             
-              <li class='header'>
-                <i class='fas fa-moon fa-fw'></i>暗黑模式
-              </li>
-            
-          
-          
-            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  <i class='fal fa-redo fa-spin fa-fw'></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" href=/about/
@@ -237,6 +241,20 @@
                   >
                   <i class='fal fa-address-card fa-fw'></i>关于
                 </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li class='header'>
+                <i class='fas fa-moon fa-fw'></i>暗黑模式
+              </li>
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -360,13 +378,17 @@
             
               
             
-              <li class='header'>
-                <i class='fas fa-moon fa-fw'></i>暗黑模式
-              </li>
-            
-          
-            
-              
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  <i class='fal fa-redo fa-spin fa-fw'></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover" href=/about/
@@ -377,6 +399,20 @@
                   >
                   <i class='fal fa-address-card fa-fw'></i>关于
                 </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li class='header'>
+                <i class='fas fa-moon fa-fw'></i>暗黑模式
+              </li>
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -428,20 +464,6 @@
               
               id="home">
               <i class='fad fa-home fa-fw'></i><p>首页</p>
-            </a>
-          
-            <a href="/categories/"
-              
-              
-              id="categories">
-              <i class='fal fa-folder-open fa-fw'></i><p>文章分类</p>
-            </a>
-          
-            <a href="/tags/"
-              
-              
-              id="tags">
-              <i class='fal fa-tags fa-fw'></i><p>文章标签</p>
             </a>
           
             <a href="/archives/"
@@ -734,7 +756,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Wed Sep 15 2021 21:42:39 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Wed Sep 15 2021 22:02:07 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2021-09-15 日</div>
           
         </div>
@@ -991,7 +1013,7 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-09-15T21:06:33+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-09-15T21:42:38+08:00">
   <a class='notlink'>
     <i class="fal fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2021年9月15日</p>
@@ -1575,6 +1597,201 @@ valine.Q('*').limit(7).find().then(function (comments) {
 
 
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Colsrch/CDN@master/judge_time/js.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js" aysc></script>
+
+<script type="text/javascript">
+function getClientHeight(){
+  var clientHeight=0;
+  if(document.body.clientHeight&&document.documentElement.clientHeight){
+  var clientHeight = (document.body.clientHeight<document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+  }else{
+  var clientHeight = (document.body.clientHeight>document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+  }
+  return clientHeight;
+}
+function supportCss3(style) {
+  var prefix = ['webkit', 'Moz', 'ms', 'o'],
+  i,
+  humpString = [],
+  htmlStyle = document.documentElement.style,
+  _toHumb = function (string) {
+  return string.replace(/-(\w)/g, function ($0, $1) {
+  return $1.toUpperCase();
+  });
+  };
+  for (i in prefix)
+  humpString.push(_toHumb(prefix[i] + '-' + style));
+  humpString.push(_toHumb(style));
+  for (i in humpString)
+  if (humpString[i] in htmlStyle) return true;
+  return false;
+};
+//配置信息
+var options = {
+  bottom: '32px',
+  right: 'unset',
+  left: '16px',
+  time: '0s',
+  mixColor: '#f4f4f4',
+  backgroundColor: '#f4f4f4',
+  buttonColorDark: '#333',
+  buttonColorLight: '#ddd',
+  saveInCookies: true,
+  label: '',
+  autoMatchOsTheme: true
+};
+// 卡片兼容处理 mix-blend-mode 与 effect: [blur] 冲突
+
+function pjax_darkmodejs(){
+  
+}
+// mix-blend-mode support?
+if(supportCss3('mix-blend-mode')){
+  window.darkmode = new Darkmode(options);
+  
+  pjax_darkmodejs();
+}
+////////////////Development///////////////////////
+//////////////darkmode模式切换////////////////////
+//window.darkmode.toggle();                     //
+//////////////darkmode模式判断////////////////////
+//console.log(window.darkmode.isActivated())    //
+//////////////////////////////////////////////////
+// 自动夜间模式
+if (navigator.geolocation) {   //获取地理位置 用于判断日出日落时间
+    navigator.geolocation.getCurrentPosition(
+      function (position) {
+        var res = computeSunRiseSunSet(position.coords.latitude, position.coords.longitude, 8);
+        console.log(res.str)
+        adjust_time(res.strSunRise, res.strSunSet, "08:00", "12:00", "14:00", "23:00")
+      },
+      function (e) {
+        adjust_time("7:00", "17:30", "08:00", "12:00", "14:00", "23:00")  //未允许获取地理位置时，使用默认时间
+        console.log("未允许获取地理位置，使用默认配置时间")
+        throw (e.message);
+      }
+    )
+  }
+function adjust_time(beginTime, endTime, morningTime, noonTime, afternoonTime, nightTime) {
+  const rootElement = document.documentElement;
+  var strb = beginTime.split(":");
+  if (strb.length != 2) {
+    return false;
+  }
+
+  var stre = endTime.split(":");
+  if (stre.length != 2) {
+    return false;
+  }
+
+  var strmorning = morningTime.split(":");   //12点
+  if (stre.length != 2) {
+    return false;
+  }
+
+  var strnoon = noonTime.split(":");   //12点
+  if (stre.length != 2) {
+    return false;
+  }
+
+  var strafternoon = afternoonTime.split(":");   //13点
+  if (stre.length != 2) {
+    return false;
+  }
+
+  var strnight = nightTime.split(":");   //23点
+  if (stre.length != 2) {
+    return false;
+  }
+
+  var b = new Date();
+  var e = new Date();
+  var n = new Date();
+  var morning = new Date();
+  var noon = new Date();
+  var afternoon = new Date();
+  var night = new Date();
+
+  b.setHours(strb[0]);
+  b.setMinutes(strb[1]);
+  e.setHours(stre[0]);
+  e.setMinutes(stre[1]);
+  morning.setHours(strmorning[0]);
+  morning.setMinutes(strmorning[1]);
+  noon.setHours(strnoon[0]);
+  noon.setMinutes(strnoon[1]);
+  afternoon.setHours(strafternoon[0]);
+  afternoon.setMinutes(strafternoon[1]);
+  night.setHours(strnight[0]);
+  night.setMinutes(strnight[1]);
+
+
+  $.getJSON("https://v1.hitokoto.cn", function (hitokoto) {
+    //在这里面处理获得的数据
+    if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
+      var daytimetitle = ''
+      var daytimemessage = ''
+      if (n.getTime() - morning.getTime() < 0) {
+        // 早上
+        daytimetitle = '早安'
+      }
+      else if (n.getTime() - noon.getTime() < 0) {
+        // 上午
+        daytimetitle = '上午好'
+      }
+      else if (n.getTime() - afternoon.getTime() < 0) {
+        // 中午
+        daytimetitle = '中午好'
+        daytimemessage = '<br>要注意休息哦~'
+      }
+      else {
+        // 下午
+        daytimetitle = '下午好'
+      }
+      // 判断是否已经开启夜间模式
+      if (rootElement.getAttribute('data-user-color-scheme', 'dark')) {
+        // 已开启夜间模式，修改按钮状态
+        $.message({ title: '操作通知', message: daytimetitle + '，已自动为您切换为日间模式。<br>' + hitokoto.hitokoto + daytimemessage, type: 'success' });
+        const mode = toggleCustomDarkMode();
+        applyCustomDarkModeSettings(mode);
+      }
+      else {
+        // 未开启夜间模式，不执行操作
+        $.message({ title: daytimetitle, message: hitokoto.hitokoto + daytimemessage, type: 'info' });
+        return true;
+      }
+    } else {
+      // 晚上
+      var nighttitle = ''
+      var nightmessage = ''
+      if (night.getTime() - n.getTime() < 0 || n.getTime() - b.getTime() < 0) {
+        nighttitle = '夜深了'
+        nightmessage = '<br>该睡觉啦~'
+      }
+      else {
+        nighttitle = '晚上好'
+        nightmessage = '<br>吃晚饭了吗？要注意眼睛哦。'
+      }
+      // 判断是否已经开启夜间模式
+      if (rootElement.getAttribute('data-user-color-scheme', 'dark')) {
+        // 已开启夜间模式，不执行操作
+        $.message({ title: nighttitle, message: hitokoto.hitokoto + nightmessage, type: 'info' });
+        return true;
+      }
+      else {
+        // 未开启夜间模式，修改按钮状态
+        $.message({ title: '操作通知', message: nighttitle + '，已自动为您切换为夜间模式。<br>' + hitokoto.hitokoto + nightmessage, type: 'success' });
+        const mode = toggleCustomDarkMode();
+        applyCustomDarkModeSettings(mode);
+      }
+    }
+  });
+}
+</script>
+
+
 
 
   <script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
@@ -1742,6 +1959,8 @@ valine.Q('*').limit(7).find().then(function (comments) {
         
         
         
+        
+          pjax_darkmodejs();
         
       } catch (e) {
         console.log(e);
