@@ -752,7 +752,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Wed Sep 15 2021 22:02:07 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Wed Sep 15 2021 22:04:42 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2021-09-15 日</div>
           
         </div>
@@ -1512,6 +1512,8 @@ function pjax_darkmodejs(){
 // mix-blend-mode support?
 if(supportCss3('mix-blend-mode')){
   window.darkmode = new Darkmode(options);
+  
+  window.darkmode.showWidget();
   
   pjax_darkmodejs();
 }
