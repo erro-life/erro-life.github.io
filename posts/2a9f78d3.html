@@ -1,0 +1,2651 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/1.0'>
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+  <title>题库 - ErroLife</title>
+  
+    <meta name="keywords" content="文档">
+  
+
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="ErroLife" type="application/atom+xml">
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/heson525/fontawesome-pro@5.13.1/css/all.min.css">
+
+  
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" media="print" onload="this.media='all'">
+  
+
+
+  <!-- import link -->
+  
+
+  
+    
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.2.0/styles/a11y-dark.css">
+
+    
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+  
+    <!-- 脚本懒加载函数 -->
+    <script>
+      function loadScript(src, cb) {
+        var HEAD = document.getElementsByTagName('head')[0] || document.documentElement;
+        var script = document.createElement('script');
+        script.setAttribute('type','text/javascript');
+        if (cb) script.onload = cb;
+        script.setAttribute('src', src);
+        HEAD.appendChild(script);
+      }
+       </script>
+    
+</head>
+
+<body>
+  <header class="l_header auto shadow floatable blur" style='opacity: 0' >
+  <div class='container'>
+  <div class='wrapper'>
+    <div class='nav-sub'>
+      <p class="title"></p>
+      <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href='/'>
+          
+            <img no-lazy class='logo' src='https://bu.dusays.com/2021/09/13/5ae2e3c9e28bc.png'/>
+          
+          
+          
+        </a>
+      
+
+			<div class='menu navigation'>
+				<ul class='nav-list-h m-pc'>
+          
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fal fa-home fa-fw'></i>首页
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  <i class='fal fa-search fa-fw'></i>文章
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/archives/
+                  
+                  
+                  
+                    id="archives"
+                  >
+                  <i class='fal fa-archive fa-fw'></i>文章归档
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tags/
+                  
+                  
+                  
+                    id="tags"
+                  >
+                  <i class='fal fa-tags fa-fw'></i>文章标签
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/categories/
+                  
+                  
+                  
+                    id="categories"
+                  >
+                  <i class='fal fa-folder-open fa-fw'></i>文章分类
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bb/
+                  
+                  
+                  
+                    id="bb"
+                  >
+                  <i class='fal fa-microphone-alt fa-fw'></i>说说
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fal fa-address-card fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fal fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="搜索..." />
+        </form>
+      </div>
+
+			<ul class='switcher nav-list-h m-phone'>
+				
+					<li><a class="s-search fal fa-search fa-fw" target="_self" href='javascript:void(0)'></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href='javascript:void(0)'></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/
+                  
+                  
+                  
+                    id="home"
+                  >
+                  <i class='fal fa-home fa-fw'></i>首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" 
+                  
+                  
+                  >
+                  <i class='fal fa-search fa-fw'></i>文章
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/archives/
+                  
+                  
+                  
+                    id="archives"
+                  >
+                  <i class='fal fa-archive fa-fw'></i>文章归档
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/tags/
+                  
+                  
+                  
+                    id="tags"
+                  >
+                  <i class='fal fa-tags fa-fw'></i>文章标签
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/categories/
+                  
+                  
+                  
+                    id="categories"
+                  >
+                  <i class='fal fa-folder-open fa-fw'></i>文章分类
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/bb/
+                  
+                  
+                  
+                    id="bb"
+                  >
+                  <i class='fal fa-microphone-alt fa-fw'></i>说说
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/about/
+                  
+                  
+                  
+                    id="about"
+                  >
+                  <i class='fal fa-address-card fa-fw'></i>关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  <div class="l_body">
+    <div class="l_cover">
+
+  
+  
+      <div class='cover-wrapper post search' style="display: none;">
+        <canvas id="header_canvas" style="position:absolute;bottom:0;z-index: 1;" width="900" height="350"></canvas>
+        
+          <div class='cover-backstretch'></div>
+        
+        <div class='cover-body'>
+  <div class='top'>
+    
+      <img no-lazy class='logo' src='https://bu.dusays.com/2021/09/13/5ae2e3c9e28bc.png'/>
+    
+    
+    
+      <p class="subtitle">我每天都在笑，你猜我过得好不好</p>
+    
+  </div>
+  <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="搜索本站内容..." />
+          <i class="icon fal fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class='menu navigation'>
+      <div class='list-h'>
+        
+          
+            <a href="/"
+              
+              
+              id="home">
+              <i class='fad fa-home fa-fw'></i><p>首页</p>
+            </a>
+          
+            <a href="/categories/"
+              
+              
+              id="categories">
+              <i class='fal fa-folder-open fa-fw'></i><p>文章分类</p>
+            </a>
+          
+            <a href="/tags/"
+              
+              
+              id="tags">
+              <i class='fal fa-tags fa-fw'></i><p>文章标签</p>
+            </a>
+          
+            <a href="/archives/"
+              
+              
+              id="archives">
+              <i class='fad fa-archive fa-fw'></i><p>文章归档</p>
+            </a>
+          
+            <a href="/bb/"
+              
+              
+              id="bb">
+              <i class='fad fa-microphone-alt fa-fw'></i><p>说说</p>
+            </a>
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+      </div>
+  
+
+</div>
+
+    <div class='safearea'>
+      <div class='body-wrapper' id="pjax-container">
+        
+          <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+
+
+<div id="pjax-data" style="display: none">
+  <div id="pjax-ispage">true</div>
+  <div id="pjax-pageTitle">题库</div>
+  <div id="pjax-enable-cover">true</div>
+  <div id="pjax-comment-path"></div>
+  <div id="pjax-comment-placeholder"></div>
+</div>
+
+
+<script>
+  // 处理封面 此时 jquery 还没加载
+  if ("none" == "none") { // 移除封面
+    document.getElementsByClassName('cover-wrapper')[0].style.display = "none";
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show");
+  } else {
+    if ("none" == "half") { // 半屏
+      document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'half');
+      document.getElementsByClassName('scroll-down')[0].style.display = "none";
+    } else if ("none" == "full") { // 全屏
+      document.getElementsByClassName('cover-wrapper')[0].setAttribute('id', 'full');
+      document.getElementsByClassName('scroll-down')[0].style.display = "";
+    }
+    document.getElementsByClassName('cover-wrapper')[0].style.display = "";
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show");
+  }
+</script>
+
+
+        
+        
+
+<aside class='l_side'>
+  <div style="margin-bottom: 16px;border-radius: 8px;" class='shadow floatable widget_author desktop'>
+    <div id="zuozhebg" class="newauthor"
+      style="background: url(/img/favicon.jpg) center center no-repeat;background-size:cover">
+    </div>
+    <div class="relive_widget_v3">
+      <div class="box-author-info">
+        <div class="author-face">
+          <a href="/about" target="_blank" rel="nofollow" title="关于HonSang">
+            <img no-lazy alt="" src="/img/favicon.jpg"
+              class="avatar avatar-200 photo" height="200" width="200"> </a>
+        </div>
+        <div class="author-name">HonSang</div>
+        <div id="author-one" class="author-one">
+          <script>
+            var binft = function (r) {
+              function t() {
+                return b[Math.floor(Math.random() * b.length)]
+              }
+              function e() {
+                return String.fromCharCode(94 * Math.random() + 33)
+              }
+              function n(r) {
+                for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+                  var l = document.createElement("span");
+                  l.textContent = e(), l.style.color = t(), n.appendChild(l)
+                }
+                return n
+              }
+              function i() {
+                var t = o[c.skillI];
+                c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+              }
+              var l = "",
+                o = ["人生在勤，不索何获", "日日待明日,万事成蹉跎", "丈夫志四海，万里犹比邻", "还在看这里吗？", "能不能别看了？", "文章更精彩...."].map(function (r) {
+                  return r + ""
+                }),
+                a = 2,
+                g = 1,
+                s = 5,
+                d = 75,
+                b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+                c = {
+                  text: "",
+                  prefixP: -s,
+                  skillI: 0,
+                  skillP: 0,
+                  direction: "forward",
+                  delay: a,
+                  step: g
+                };
+              i()
+            };
+            binft(document.getElementById('author-one'));
+          </script>
+
+
+        </div>
+        <div class="site-state-wrap motion-element">
+          <nav class="site-state">
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+
+                <span class="site-state-item-count">42</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/">
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  
+
+  
+  
+    
+    
+  
+
+  <section class="widget category shadow floatable desktop">
+    
+  <header>
+    
+      <a href='/categories/'><i class="fal fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/"
+            id="categoriesE59B9BE69C88E5A4A9"
+            ><div class='name'>四月天</div><div class='badge'>(41)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/"
+            id="categoriesE59B9BE69C88E5A4A9E688B7E5A496"
+            ><div class='name'>户外</div><div class='badge'>(41)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E6%BA%AF%E6%BA%AA/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E6%BA%AF%E6%BA%AA/"
+            id="categoriesE59B9BE69C88E5A4A9E688B7E5A496E6BAAFE6BAAA"
+            ><div class='name'>溯溪</div><div class='badge'>(4)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E8%BD%BB%E8%A3%85/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E8%BD%BB%E8%A3%85/"
+            id="categoriesE59B9BE69C88E5A4A9E688B7E5A496E8BDBBE8A385"
+            ><div class='name'>轻装</div><div class='badge'>(4)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E9%87%8D%E8%A3%85/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E9%87%8D%E8%A3%85/"
+            id="categoriesE59B9BE69C88E5A4A9E688B7E5A496E9878DE8A385"
+            ><div class='name'>重装</div><div class='badge'>(19)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E9%87%8D%E8%A3%85/%E9%AB%98%E5%8E%9F/" href="/categories/%E5%9B%9B%E6%9C%88%E5%A4%A9/%E6%88%B7%E5%A4%96/%E9%87%8D%E8%A3%85/%E9%AB%98%E5%8E%9F/"
+            id="categoriesE59B9BE69C88E5A4A9E688B7E5A496E9878DE8A385E9AB98E58E9F"
+            ><div class='name'>高原</div><div class='badge'>(2)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E8%B5%84%E6%96%99%E5%BA%93/" href="/categories/%E8%B5%84%E6%96%99%E5%BA%93/"
+            id="categoriesE8B584E69699E5BA93"
+            ><div class='name'>资料库</div><div class='badge'>(1)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+  
+
+  
+
+  
+    
+    
+
+<section class="widget text shadow floatable desktop">
+  
+  <header>
+    
+      <i class="fal fa-comments fa-fw" aria-hidden="true"></i><span class='name'>最新评论</span>
+    
+  </header>
+
+
+  <div class='content'>
+    
+      <div id="hot-comments"></div>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget shadow floatable desktop mobile">
+  
+  <header>
+    
+      <i class="fal fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>42 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
+        </div>
+        <script>
+          var BirthDay = new Date(new Date('2021/07/06'));
+          var today = new Date();
+          var timeold = (today.getTime() - BirthDay.getTime());
+          var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
+          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
+        </script>
+      
+
+
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          <div><span id="busuanzi_value_site_uv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 人</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          <div><span id="busuanzi_value_site_pv"><i class="fas fa-fan fa-spin fa-fw" aria-hidden="true"></i></span> 次</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          
+            <div id="last-update" style="display: none;">Wed Sep 22 2021 20:21:40 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-09-22 日</div>
+          
+        </div>
+        
+        <script>
+          function timeago(dateTimeStamp) {
+              var minute = 1000 * 60; //把分，时，天，周，半个月，一个月用毫秒表示
+              var hour = minute * 60;
+              var day = hour * 24;
+              var week = day * 7;
+              var month = day * 30;
+              var now = new Date().getTime(); //获取当前时间毫秒
+              var diffValue = now - dateTimeStamp; //时间差
+              if (diffValue < 0) {
+                  return;
+              }
+              var minC = diffValue / minute; //计算时间差的分，时，天，周，月
+              var hourC = diffValue / hour;
+              var dayC = diffValue / day;
+              var weekC = diffValue / week;
+              var monthC = diffValue / month;
+              if (monthC >= 1 && monthC <= 3) {
+                  result = " " + parseInt(monthC) + " 月前"
+              } else if (weekC >= 1 && weekC <= 3) {
+                  result = " " + parseInt(weekC) + " 周前"
+              } else if (dayC >= 1 && dayC <= 6) {
+                  result = " " + parseInt(dayC) + " 天前"
+              } else if (hourC >= 1 && hourC <= 23) {
+                  result = " " + parseInt(hourC) + " 小时前"
+              } else if (minC >= 1 && minC <= 59) {
+                  result = " " + parseInt(minC) + " 分钟前"
+              } else if (diffValue >= 0 && diffValue <= minute) {
+                  result = "刚刚"
+              } else {
+                  var datetime = new Date();
+                  datetime.setTime(dateTimeStamp);
+                  var Nyear = datetime.getFullYear();
+                  var Nmonth = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+                  var Ndate = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+                  var Nhour = datetime.getHours() < 10 ? "0" + datetime.getHours() : datetime.getHours();
+                  var Nminute = datetime.getMinutes() < 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+                  var Nsecond = datetime.getSeconds() < 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+                  result = Nyear + "-" + Nmonth + "-" + Ndate
+              }
+              return result;
+          }
+          var lastUpDate = document.getElementById('last-update').innerHTML;
+          try {
+            document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
+          } catch (error) {
+            document.getElementById('last-update-show').innerHTML = '2021-09-22 日';
+          }
+        </script>
+        
+      
+    </div>
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+
+
+  
+
+
+</aside>
+
+<div class='l_main'>
+  <article
+  class="article post white-box reveal md shadow floatable article-type-post"
+  id="post" itemscope itemprop="blogPost">
+  
+
+
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title">
+        题库
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author'>
+  <a class='author' href="/" rel="nofollow">
+    <img no-lazy src="/img/favicon.jpg">
+    <p>HS</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <a class='notlink'>
+      <i class="fal fa-folder-open fa-fw" aria-hidden="true"></i>
+      <a class="category-link" href="/categories/%E8%B5%84%E6%96%99%E5%BA%93/">资料库</a>
+    </a>
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date">
+  <a class='notlink'>
+    <i class="fal fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2021年4月22日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class="new-meta-item browse busuanzi">
+    <a class='notlink'>
+      <i class="fal fa-eye fa-fw" aria-hidden="true"></i>
+      <p>
+        <span id="busuanzi_value_page_pv">
+          <i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i>
+        </span>
+        次浏览
+      </p>
+    </a>
+  </div>
+
+
+          
+        
+      </div>
+    
+  </div>
+
+
+  
+
+  
+  <ol>
+<li>window.QAA=[{</li>
+<li>​        “q”: “如果出现使用emby connect登录你应该:”,</li>
+<li>​        “e”: “点下一步”,</li>
+<li>​        “a”: “点跳过/手动输入”</li>
+<li>​    }, {</li>
+<li>​        “q”: “哪一个国家不能直接访问公益服的备用线路 (也就是cloudflare线路)?”,</li>
+<li>​        “e”: “新加坡|澳大利亚”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用了 Emby 公益服提供的 Android TV 官方客户端破解版，但一直提示试用即将到期或已过期怎么办？”,</li>
+<li>​        “e”: “破解失败，重新安装”,</li>
+<li>​        “a”: “无视它”</li>
+<li>​    }, {</li>
+<li>​        “q”: “美剧里「S1E1」「S2E3」中「E」指英文中哪个单词？”,</li>
+<li>​        “e”: “Earthling”</li>
+<li>​    }, {</li>
+<li>​        “q”: “遇到问题想在群里发问，又怕被办怎么办才好呢？”,</li>
+<li>​        “a”: “通读wiki 和提问的艺术全文”</li>
+<li>​    }, {</li>
+<li>​        “q”: “获得VIP的方法？”,</li>
+<li>​        “a”: “长期默默为群组解答问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于开放式提问，以下描述正确的是？”,</li>
+<li>​        “e”: “能获得想要的信息|会让一次聊天变得有意义”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “从问题属性角度出发，MySQL数据库的使用问题适合在本群组提问吗？”,</li>
+<li>​        “a”: “不适合”</li>
+<li>​    }, {</li>
+<li>​        “q”: “小李想将 Emby 的 APK 安装文件传输到 Mibox 上，这样家里的老人就可以在电视上看 Emby 了，请问以下哪种方式可以将文件传输到电视盒子上？”,</li>
+<li>​        “a”: “以上均可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “怎么赞助 Emby 公益服？”,</li>
+<li>​        “a”: “他们不接受任何赞助”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果你想参与一个你不太了解的话题讨论，你应该怎么做。”,</li>
+<li>​        “a”: “不确定的看法要指出，不能误导”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当他人为你排错时，在很基础的常识上，他要求你仔细检查，你应该？”,</li>
+<li>​        “a”: “认真检查并提供你的检查过程”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 Emby 的 iOS 客户端观看公益服影片是否需要付费解锁或破解播放权限？”,</li>
+<li>​        “a”: “需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提问前 确认自己已确定的各个步骤及其顺序都是必要的？”,</li>
+<li>​        “a”: “正确 失之毫厘差以千里”</li>
+<li>​    }, {</li>
+<li>​        “q”: “群友需要为公益服提供资源吗”,</li>
+<li>​        “e”: “需要”,</li>
+<li>​        “a”: “不需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “http://<em>.</em>.*:80 后面的80是指?”,</li>
+<li>​        “a”: “端口号”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于提问题时做到话不在多而在精的好处，以下描述错误的是？”,</li>
+<li>​        “e”: “更有可能得到有用答案”</li>
+<li>​    }, {</li>
+<li>​        “q”: “emby终点站每隔多久会重置一次密码？”,</li>
+<li>​        “a”: “不会重置”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪一个地区无法使用备用线路直接观看 emby 终点站？”,</li>
+<li>​        “e”: “Korea”,</li>
+<li>​        “a”: “United States”</li>
+<li>​    }, {</li>
+<li>​        “q”: “WIKI中提供的Emby，Android TV客户端，原生Android TV 系统或 Amazon Fire TV应当优先选择哪个版本进行安装？”,</li>
+<li>​        “a”: “破解版 D”,</li>
+<li>​        “e”: “破解版 A|破解版 B|破解版 C”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服的账号是什么类型的账号？”,</li>
+<li>​        “a”: “个人独立账号”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何让神奇女侠失去神力？”,</li>
+<li>​        “a”: “绑住她的双手”</li>
+<li>​    }, {</li>
+<li>​        “q”: “群里大佬有义务和责任耐心回答群友的任何问题么？”,</li>
+<li>​        “a”: “没有，大佬们忙着修水管”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下关于 Telegram 的说法，不正确的是”,</li>
+<li>​        “a”: “无法在超过10个设备同时登录”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果在群里按照规则提问时，被别的聊天刷过去导致一直没有得到回复怎么办？”,</li>
+<li>​        “a”: “耐心等待合适的提问机会”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪种提问方式更好”,</li>
+<li>​        “a”: “详细描述运行环境以及出现的问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “新人入群必看的东西是？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “挂代理使用Emby时，以下哪种说法正确”,</li>
+<li>​        “a”: “确认走了代理流量”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于公益服考试中的95%的问题在wiki里有答案对吗？”,</li>
+<li>​        “e”: “正确”,</li>
+<li>​        “a”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “没事别给人制造麻烦。少发语音，多发文字，连续不停的重复问题，对方可能一条都不想看，或者直接无视。”,</li>
+<li>​        “e”: “错误”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “本群線路裡的cf是啥？(⊙o⊙)”,</li>
+<li>​        “a”: “CloudFlare”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果你发现wiki中有疑似错误时，你应该怎么做。”,</li>
+<li>​        “a”: “查询相关资料，确认后再反馈”</li>
+<li>​    }, {</li>
+<li>​        “q”: “经研究思考后的问题提出为何往往能够推动问题的解决同时，让提出者和解答者都大有收获”,</li>
+<li>​        “e”: “伴随探讨的交流筛选精华想法”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “反馈表单求剧时需要填写的内容是？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪一个算的上一个好问题”,</li>
+<li>​        “a”: “以上都不是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “张飞在Kodi中安装Embycon时遇到缺失依赖项，此时应该”,</li>
+<li>​        “a”: “自行下载安装相关的依赖项”</li>
+<li>​    }, {</li>
+<li>​        “q”: “请选出与其他三项不同的应用”,</li>
+<li>​        “e”: “Jellyfin”,</li>
+<li>​        “a”: “Netflix”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 的官网是哪个？”,</li>
+<li>​        “a”: “<a target="_blank" rel="noopener" href="https://emby.media/&quot;">https://emby.media/&quot;</a></li>
+<li>​    }, {</li>
+<li>​        “q”: “通过pt站下载的蓝光原盘通常含有哪种关键字”,</li>
+<li>​        “a”: “blu-ray”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于 VIP 服描述错误的是？”,</li>
+<li>​        “e”: “影片数量是公益服的 N 倍”,</li>
+<li>​        “a”: “有 DMM 全站资源”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 的 Android 手机客户端在哪下载？”,</li>
+<li>​        “a”: “Emby 官网”</li>
+<li>​    }, {</li>
+<li>​        “q”: “加入终点站公益服VIP服描述错误的是？”,</li>
+<li>​        “a”: “向管理员提出申请”</li>
+<li>​    }, {</li>
+<li>​        “q”: “本群線路裡的AGA是哪一家的？(⊙o⊙)”,</li>
+<li>​        “a”: “Amazon”</li>
+<li>​    }, {</li>
+<li>​        “q”: “目前 Infuse 终身订阅版售价多少？”,</li>
+<li>​        “e”: “$59.99 美元”,</li>
+<li>​        “a”: “$69.99 美元”</li>
+<li>​    }, {</li>
+<li>​        “q”: “手机客户端上的“通过 Emby Connect 登录”页面怎么死活登录不了机器人给我的公益服账号密码？”,</li>
+<li>​        “e”: “点击 “忘记密码”按钮找回”,</li>
+<li>​        “a”: “公益服账号不能登录 Emby Connect”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪种提问者的提问 更加符合提问的智慧要求”,</li>
+<li>​        “a”: “带日志、详细说明及照片的材料”</li>
+<li>​    }, {</li>
+<li>​        “q”: “貌似以前有人问的问题自己遇到了怎么办？”,</li>
+<li>​        “a”: “通过tg搜索功能查看聊天记录”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于修改 Emby 公益服个人账号密码的描述错误的是？”,</li>
+<li>​        “a”: “找群管理员修改”</li>
+<li>​    }, {</li>
+<li>​        “q”: “FHD和HD分辨率相比较，影响视频清晰度的主要因素”,</li>
+<li>​        “e”: “分辨率|帧率”</li>
+<li>​    }, {</li>
+<li>​        “q”: “HEVC是什么标准？”,</li>
+<li>​        “a”: “视频压缩标准”</li>
+<li>​    }, {</li>
+<li>​        “q”: “假如有自称是终点站的客服联系你说，交钱可以直接进入vip服，你该怎么办”,</li>
+<li>​        “a”: “举报他，并让他滚”</li>
+<li>​    }, {</li>
+<li>​        “q”: “我国第一部跳过影院，登陆网络流媒体上映的影片是”,</li>
+<li>​        “e”: “《姜子牙》|《中国女排》|《紧急救援》”</li>
+<li>​    }, {</li>
+<li>​        “q”: “请问以下哪种提问不建议使用？”,</li>
+<li>​        “a”: “以上皆不建议”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在emby终点站使用过程中遇到问题你该怎么做？”,</li>
+<li>​        “a”: “尝试自己查找原因解决”</li>
+<li>​    }, {</li>
+<li>​        “q”: “遇到点开播放提示没有兼容的流，以下那些是正确的。1. 确认用的不是浏览器2. 尝试更换1/2/3妹和线路3. 私聊厂妹投诉有问题4. 把测试过的各种详细信息发在群里”,</li>
+<li>​        “a”: “1，2，4”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪项不属于考核的目的？”,</li>
+<li>​        “a”: “劝退”</li>
+<li>​    }, {</li>
+<li>​        “q”: “nplayer可以播放终点站吗？”,</li>
+<li>​        “e”: “不可以”,</li>
+<li>​        “a”: “可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在《提问的智慧》里提到，你做了哪些事情，你很可能被忽略掉或者被看作失败者？（答案详见：<a target="_blank" rel="noopener" href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md</a> ）”,</li>
+<li>​        “a”: “在与主题不相关的群组提出你的问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “1080p60中,60指的是什么”,</li>
+<li>​        “a”: “帧率”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于Emby的Windows版本破解，需要替换emby-theater-x64\electronapp\main.js#getAppBaseUrl()方法中的url变量，以下描述正确的是？”,</li>
+<li>​        “e”: “以上都不对”,</li>
+<li>​        “a”: “替换官方拉取文件地址”</li>
+<li>​    }, {</li>
+<li>​        “q”: “授人以鱼不如授人以渔，一味的询问就如无休止的黑洞，我们应该在每条路上都养成自主思考的习惯，学会自己解决问题的思路比直接得到问题的答案来的更宝贵些。对于此说法正确吗？”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服怎么收费的？”,</li>
+<li>​        “a”: “免费”</li>
+<li>​    }, {</li>
+<li>​        “q”: “哪一个国家能直接访问公益服的备用线路 (也就是cloudflare线路)?”,</li>
+<li>​        “a”: “韩国”</li>
+<li>​    }, {</li>
+<li>​        “q”: “我不想花钱去解锁 iOS 的 Emby 官方客户端，能否破解？”,</li>
+<li>​        “a”: “可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “学会区分问题属性，可以更好的寻求答案，网络代理问题，找到自己使用的代理提供商，Emby相关，找到Emby交流群。这样的做法”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下那个问题可能得不到解答？”,</li>
+<li>​        “a”: “以上皆是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 Kodi 连接 Emby 终点站公益服不能使用什么插件？”,</li>
+<li>​        “a”: “Emby”</li>
+<li>​    }, {</li>
+<li>​        “q”: “下面哪种方式无法播放  HEVC 视频？”,</li>
+<li>​        “a”: “Chrome 浏览器”</li>
+<li>​    }, {</li>
+<li>​        “q”: “入群验证问题回答错误怎么办”,</li>
+<li>​        “a”: “等待两分钟后再次加入”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益项目，本就任重道远，当我们初体验该项目遇到问题时应采取如下哪个策略”,</li>
+<li>​        “a”: “自主思考，使用搜索”</li>
+<li>​    }, {</li>
+<li>​        “q”: “将 Kodi 系统语言改为简体中文前，需要把皮肤字体设为什么字体？”,</li>
+<li>​        “a”: “Arial based”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用安卓客户端观看时，有的字幕很小，或看着难受，此时应该”,</li>
+<li>​        “a”: “更换大佬的修改版”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果你的问题解决后，将你的问题和答案转为陈述句张贴在群里帮助更多的人这样做对吗？”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用Shadowrocket破解IOS版本Emby客户端，Shadowrocket至少需要升级到以下哪个版本号?”,</li>
+<li>​        “e”: “v10.0.6”,</li>
+<li>​        “a”: “v2.1.62”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于淘宝购买 Infuse 描述错误的是？”,</li>
+<li>​        “e”: “可能会被封设备|可能会被封号”,</li>
+<li>​        “a”: “自动发货安全稳定”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于高级 VIP 服描述正确的是？”,</li>
+<li>​        “e”: “影片数量是公益服的 N 倍”</li>
+<li>​    }, {</li>
+<li>​        “q”: “本群不接受任何质疑其公益属性的声音正确吗？”,</li>
+<li>​        “e”: “错误”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “解答别人问题如何做到专业”,</li>
+<li>​        “a”: “对问题进行条理性解答”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何参与或推动公益服发展”,</li>
+<li>​        “a”: “参与内容搜集与反馈”</li>
+<li>​    }, {</li>
+<li>​        “q”: “请问以下哪种文件格式是音频格式？”,</li>
+<li>​        “a”: “DTS”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提问前，把问题再次仔细思考过一遍，草率的发问只能得到草率的回答，一个深究细致的问题，才是解决的开端。对于此说法你认为”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在emby服务器上如何操作，才能在媒体库中自动生成电影的合集”,</li>
+<li>​        “a”: “安装Auto Box Sets”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你在 Emby 群问了一个问题，无人回应，可能的原因有哪些？”,</li>
+<li>​        “a”: “以上都有可能”</li>
+<li>​    }, {</li>
+<li>​        “q”: “终点站可以用reset命令修改密码（）天修改1次！”,</li>
+<li>​        “e”: “30”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你偶尔真的会碰到无礼和无聊的言行，对真正的冒犯者狠狠地打击，用犀利的语言将其驳得体无完肤都是可以接受的。”,</li>
+<li>​        “e”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “每个人的时间都很宝贵，对于&ldquo;提问&rdquo;这件事，我们应该”,</li>
+<li>​        “a”: “搜索及深思后无果再阐明提问”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你可以在群里反映什么?”,</li>
+<li>​        “a”: “某部电影/剧集的评价”</li>
+<li>​    }, {</li>
+<li>​        “q”: “加入 Emby 公益服之前需要做什么？”,</li>
+<li>​        “e”: “整理、刮削好影片”,</li>
+<li>​        “a”: “以上皆不需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “大部分视频的帧率范围在？”,</li>
+<li>​        “e”: “60帧-120帧|40帧-60帧”</li>
+<li>​    }, {</li>
+<li>​        “q”: “大多数浏览器不支持哪一个视频解码?”,</li>
+<li>​        “a”: “HEVC”</li>
+<li>​    }, {</li>
+<li>​        “q”: “遇到问题提问之前以下做法错误的是？”,</li>
+<li>​        “a”: “私信热心的凯妹管理员”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在提问之前需要做到以下几点？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你是一名linux使用者，长期有问题向某位技术大佬咨询问题，有一天他开始收费了。”,</li>
+<li>​        “a”: “理解，技术支持不是免费的”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在客户端点播放视频的时候出现:目前没有兼容的流，请稍后重试或联系您的系统管理员了解详情你首先应该:”,</li>
+<li>​        “a”: “更换线路”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提出一个问题需要”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “为什么不建议淘宝购买infuse软件”,</li>
+<li>​        “a”: “来源不明 风险巨大”</li>
+<li>​    }, {</li>
+<li>​        “q”: “小李买了 Mibox 方便在电视上使用 Emby，带 Chromecast 功能，请问以下关于 Chromecast 的描述是正确的？”,</li>
+<li>​        “a”: “需要设备在同一局域网使用”</li>
+<li>​    }, {</li>
+<li>​        “q”: “经常遇到别人询问相同的问题时怎么办？”,</li>
+<li>​        “a”: “建议他看wiki和google”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下多媒体系统开源的是”,</li>
+<li>​        “a”: “jellyfin”</li>
+<li>​    }, {</li>
+<li>​        “q”: “emby 的网络连接是什么模式”,</li>
+<li>​        “e”: “多线程”,</li>
+<li>​        “a”: “单线程”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下关于提问的智慧，正确的是”,</li>
+<li>​        “e”: “所有都是|提问直接，少用请、谢谢等无意义词汇”,</li>
+<li>​        “a”: “避免用无意义的话结束提问”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你在终点站 Emby 电报群提问了一个问题，有人回了一句「看 Wiki」，请问接下来该怎么做？”,</li>
+<li>​        “a”: “感谢回复并认真阅读 Wiki”</li>
+<li>​    }, {</li>
+<li>​        “q”: “有些电视剧的名称有2个甚至3个，当我们搜索其中一个名称，搜索不到影片时应该”,</li>
+<li>​        “a”: “自行查询另外的名称搜索”</li>
+<li>​    }, {</li>
+<li>​        “q”: “加入 VIP 服的渠道是什么？”,</li>
+<li>​        “a”: “被大佬 py”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪种获取 Infuse 的方式不可取”,</li>
+<li>​        “a”: “购买黑卡 App 兑换码”</li>
+<li>​    }, {</li>
+<li>​        “q”: “终点站群内禁止普通群友发一切命令对吗？”,</li>
+<li>​        “e”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “怎么获取最新的 Emby 公益服线路？”,</li>
+<li>​        “e”: “从 <a target="_blank" rel="noopener" href="https://t.me/embypub">https://t.me/embypub</a> 频道获取”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在苹果设备中使用 emby 官方APP播放DTS 音源的HEVC视频，且 emby 服务器端没有打开特定权限的转码服务，会出现什么情况？”,</li>
+<li>​        “a”: “只有画面无声”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服使用过程中遇到问题该怎么办？”,</li>
+<li>​        “a”: “先查看 Wiki 文档，实在找不到答案再去群里求助并详细说明”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服上的影片中文信息来自哪里？”,</li>
+<li>​        “a”: “TMDb”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在群里问题被解决了第一时间做什么？”,</li>
+<li>​        “a”: “诚心的发表一个感谢声明”</li>
+<li>​    }, {</li>
+<li>​        “q”: “求资源的正确方式”,</li>
+<li>​        “a”: “反馈表里填写，附上tmdb链接”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 详情页面可以看到该剧的分级，以下哪个等级仅供 18 岁以上人观看”,</li>
+<li>​        “e”: “TV-PG|TV-G”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 Kodi 连接 Emby 公益服可以使用 Emby 插件吗？”,</li>
+<li>​        “a”: “不可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于在提问题时，让专家花在辨识问题和回答所需要付出的时间减到最少，以下做法正确的是？”,</li>
+<li>​        “a”: “提炼精简，明确表达问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你在终点站电报群请教大大的问题解决了，可以做以下哪种行为？”,</li>
+<li>​        “a”: “有群友遇到类似问题主动帮助”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在英文交流群组，正确的单词拼写、标点符号和大小写是很重要的。需要花点额外的精力斟酌一下字句。这样的做法”,</li>
+<li>​        “a”: “有必要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “不能在浏览器上播放什么编码的影片？”,</li>
+<li>​        “a”: “HEVC”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提问的问题如果得不到回答以下哪些做法是错误的？”,</li>
+<li>​        “a”: “重复的张贴问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在群组里做了什么会Ban？”,</li>
+<li>​        “a”: “发点对大家有益的小广告”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服的电报频道地址是什么？”,</li>
+<li>​        “a”: “<a target="_blank" rel="noopener" href="https://t.me/embypub&quot;">https://t.me/embypub&quot;</a></li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服的 Wiki 地址是什么？”,</li>
+<li>​        “a”: “<a target="_blank" rel="noopener" href="https://embywiki.911997.xyz&quot;/">https://embywiki.911997.xyz&quot;</a></li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪些内容是提问者向解答者说明时不需要阐述的”,</li>
+<li>​        “a”: “公益服账户信息”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当使用emby客户端连接公益服观看影片时提示 当前没有兼容的流，请联系管理员 ，你应该怎么办？”,</li>
+<li>​        “a”: “检查本地网络连接及客户端”</li>
+<li>​    }, {</li>
+<li>​        “q”: “挂了梯子之后公益服仍然卡顿应该怎么办?”,</li>
+<li>​        “a”: “更换别的线路/富强节点”</li>
+<li>​    }, {</li>
+<li>​        “q”: “成功进入 Emby 终点站电报群后，第一件要做的事情是什么?”,</li>
+<li>​        “a”: “点看置顶并详细阅读wiki”</li>
+<li>​    }, {</li>
+<li>​        “q”: “emby是啥？(⊙o⊙)”,</li>
+<li>​        “e”: “電影資料庫”,</li>
+<li>​        “a”: “哪個都不是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “我运行了Emby的客户端，它弹出一个警告窗口，我试着关掉它，它就崩溃了。以上提问有什么问题？”,</li>
+<li>​        “a”: “使用了表述不清的代词”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服电报群地址是什么？”,</li>
+<li>​        “e”: “<a target="_blank" rel="noopener" href="https://t.me/embypub&quot;">https://t.me/embypub&quot;</a>,</li>
+<li>​        “a”: “<a target="_blank" rel="noopener" href="https://t.me/EmbyPublic&quot;">https://t.me/EmbyPublic&quot;</a></li>
+<li>​    }, {</li>
+<li>​        “q”: “怎样的态度有助于问题的解决？”,</li>
+<li>​        “a”: “把自己的事做好然后恭敬的请问”</li>
+<li>​    }, {</li>
+<li>​        “q”: “不考虑损耗情况下，一度电可供一只50瓦的灯泡照明几小时?”,</li>
+<li>​        “a”: “20”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服的每台服务器都是相互独立的，在某台服务器上的播放记录与收藏的影片并不会同步到其他服务器上去。”,</li>
+<li>​        “e”: “错误”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益服在哪里密码重置”,</li>
+<li>​        “a”: “私聊厂妹发送/reset”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何得知大妹、二妹和三妹的状态?”,</li>
+<li>​        “a”: “发/status给厂妹”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何免费获取 Infuse？”,</li>
+<li>​        “a”: “申请成为 Infuse 的测试员”</li>
+<li>​    }, {</li>
+<li>​        “q”: “对于更好的回答问题以下哪个做法是错误的？”,</li>
+<li>​        “a”: “态度恶劣，不友善”</li>
+<li>​    }, {</li>
+<li>​        “q”: “忘记密码了怎么办?”,</li>
+<li>​        “a”: “找厂妹重置密码”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用苹果的emby官方app中，选择哪一个音源会出现只有画面输出却没有声音或提示&quot;没有兼容的流&quot;?”,</li>
+<li>​        “e”: “TRUEHD|EAC3”</li>
+<li>​    }, {</li>
+<li>​        “q”: “国内网络环境错综复杂，群友使用香港AGA线路流畅观影，而自己不能使用时应采取如下哪个策略”,</li>
+<li>​        “a”: “自行更换其它线路测试”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果外语电影或剧集没有中文字幕，不应该怎么做?”,</li>
+<li>​        “a”: “私聊管理员要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪项是本群的设立目的之一？”,</li>
+<li>​        “a”: “交流、推荐和讨论影视剧集内容”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 Shadowrocket 破解Emby时遇到GitHub污染该怎么办”,</li>
+<li>​        “a”: “使用备用脚本”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby内购的钱 去哪里了？”,</li>
+<li>​        “a”: “Emby LLC (Emby开发者)”</li>
+<li>​    }, {</li>
+<li>​        “q”: “对于使用浏览器无法播放，以下说法正确的是？”,</li>
+<li>​        “a”: “没有仔细阅读使用手册”</li>
+<li>​    }, {</li>
+<li>​        “q”: “&quot;牛津大学高才生、电机工程硕士、抑郁症、给非洲捐款最多的明星&quot;这些标签的集合指的是哪个角色的扮演者？”,</li>
+<li>​        “e”: “杰森伯恩”,</li>
+<li>​        “a”: “憨豆”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪种问题可以提交反馈”,</li>
+<li>​        “a”: “可以在特定设置下复现的”</li>
+<li>​    }, {</li>
+<li>​        “q”: “观看netflix 4k流畅，看公益服就一定流畅吗。”,</li>
+<li>​        “a”: “不是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提出问题前前尽量揣测回答者的反问并做好准备是有必要的吗？”,</li>
+<li>​        “a”: “是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Telegram 账号最长每隔多久不登录会被删除账号？”,</li>
+<li>​        “a”: “一年”</li>
+<li>​    }, {</li>
+<li>​        “q”: “能否在公开场合展示 Emby 公益服的线路信息？”,</li>
+<li>​        “a”: “不能，发现就 ban”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在lnfuse软件中添加厂妹公益资源应该选择那个添加”,</li>
+<li>​        “a”: “选择其他emby”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何查看 Emby 公益服的服务器状态？”,</li>
+<li>​        “a”: “找机器人发送 /status 命令查看”</li>
+<li>​    }, {</li>
+<li>​        “q”: “怎么加入 VIP 服？”,</li>
+<li>​        “a”: “有重大贡献可免费获邀”</li>
+<li>​    }, {</li>
+<li>​        “q”: “emby公益服的线路是固定的吗？”,</li>
+<li>​        “a”: “不是，视使用情况增减”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益服暂停注册期间，小李想体验下，应当怎么做。”,</li>
+<li>​        “a”: “学习emby相关知识,耐心等待”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Infuse 的搜索功能为什么搜不到 Emby 公益服的影片？”,</li>
+<li>​        “a”: “没有同步完成”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果播放出现有声音没画面或有画面没声音大概是什么问题?”,</li>
+<li>​        “e”: “线路卡了”,</li>
+<li>​        “a”: “设备解码问题”</li>
+<li>​    }, {</li>
+<li>​        “q”: “终点站的帐号是否支持上传自定义头像？”,</li>
+<li>​        “a”: “是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用苹果的emby官方app在播放某些片源的时候，为什么会出现只有画面输出，却没有声音的情况?”,</li>
+<li>​        “e”: “官方app不支持Dolby音源”</li>
+<li>​    }, {</li>
+<li>​        “q”: “辨析以下行为是否正确小刘在向管理员反应使用公益服出现问题的时候，情绪特别激动，并不断的私聊管理员，渴望得到解答”,</li>
+<li>​        “a”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “常常美剧里发现有「S1E1」「S2E3」类似的标记，请问其中的「S」指英文中哪个单词？”,</li>
+<li>​        “e”: “Series”,</li>
+<li>​        “a”: “Season”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在Linux交流群询问Emby的使用问题，得不到解决回复，犯了以下哪个错误”,</li>
+<li>​        “a”: “讨论范围不同”</li>
+<li>​    }, {</li>
+<li>​        “q”: “为了应对新入的用户，水管工马里奥增加了新的服务器，曹妮玛同学想试一下新的服务器，同时因为家中登录了其他设备，并不想重新设置登录。此时他应该”,</li>
+<li>​        “a”: “用大妹的登录信息登陆新妹”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提问者提出问题，在面对解答者的解答时，应该学会从相关资料中获取信息，而不是不经思考式地接受，因为这是无效率的。”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “急于解决某问题时正确的做法是”,</li>
+<li>​        “a”: “群里询问后一边等待一边自己解决”</li>
+<li>​    }, {</li>
+<li>​        “q”: “iPhone/iPad/mac 客户端上 30 元解锁正版 Emby 客户端的钱由 Emby 终点站和苹果收取。”,</li>
+<li>​        “e”: “正确”,</li>
+<li>​        “a”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “哪一个客户端不能完整体验emby公益服?”,</li>
+<li>​        “a”: “google浏览器”</li>
+<li>​    }, {</li>
+<li>​        “q”: “iOS端使用观看公益服的正确方式”,</li>
+<li>​        “a”: “emby客户端30元内购”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Android 手机用户可以直接使用 Emby 官方客户端播放公益服视频，无需付费或者去用破解版。”,</li>
+<li>​        “e”: “错误”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “怎么联系 Emby 公益服的客服人员？”,</li>
+<li>​        “a”: “不能联系，因为没有客服”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用翻墙软件破解了 Emby 的 iOS 客户端，以后是否每次播放视频都要重新破解？”,</li>
+<li>​        “a”: “不需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益服对资源贩卖的态度是什么”,</li>
+<li>​        “a”: “坚决打击”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Infuse从哪个版本开始支持Emby协议？”,</li>
+<li>​        “e”: “Infuse 5”,</li>
+<li>​        “a”: “Infuse 6”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下那套是王家衛的電影”,</li>
+<li>​        “a”: “花樣年華”</li>
+<li>​    }, {</li>
+<li>​        “q”: “被Ban之后还有机会回来吗？”,</li>
+<li>​        “a”: “原则上没有机会”</li>
+<li>​    }, {</li>
+<li>​        “q”: “和善的解答态度是帮助他人完成问题解决的一个重要因素之一”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服的个人账号是否可以共享给他人使用？”,</li>
+<li>​        “a”: “不可以，只能自己和家人使用”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在软件使用过程中遇到问题并解决，问题的解决过程应该公开、透明吗？”,</li>
+<li>​        “a”: “应该”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪些个是蠢问题？1.我能在哪里找到Emby安装包？2.我的客户端运行中出现了问题，有人能帮我吗？3.客户端可以在xxx设备上运行吗？”,</li>
+<li>​        “a”: “123”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在使用软件时遇到问题，请求帮助时，需要按发生时间先后列出问题的症状吗？”,</li>
+<li>​        “a”: “需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “macOS 上使用 Infuse 的 alpha 测试版观看 Emby 公益服是否需要付费购买？”,</li>
+<li>​        “a”: “不需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在群聊中提问长期没有人回答，且被管理员警告往往是因为？1.这个问题过于复杂，以群聊成员的水平无法回答2.这个问题的提出者不具备专业能力3.这个问题已经在wiki中出现过，并给出了解决方案4.这个问题具有挑战性”,</li>
+<li>​        “a”: “3”</li>
+<li>​    }, {</li>
+<li>​        “q”: “VIP 服怎么收费？”,</li>
+<li>​        “a”: “免费”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 手机客户端看片时字幕字体不习惯怎么办？”,</li>
+<li>​        “a”: “使用公益服 Wiki 上提供的修改版客户端”</li>
+<li>​    }, {</li>
+<li>​        “q”: “infuse添加Emby服务器，同步视频资源时，老是中断怎么办”,</li>
+<li>​        “a”: “保持软件活跃或越狱装真后台插件”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 emby 公益服很卡，以下哪一个办法可以彻底解决问题？”,</li>
+<li>​        “e”: “更换线路|使用代理”,</li>
+<li>​        “a”: “花钱支持正版流媒体”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Hakuna Matata出自那一部电影”,</li>
+<li>​        “e”: “怪物公司”</li>
+<li>​    }, {</li>
+<li>​        “q”: “YouTube上万速度 公益服连接一定流畅吗？”,</li>
+<li>​        “a”: “不是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “哪一个系统的用户可以免费使用完整的emby客户端服务?”,</li>
+<li>​        “a”: “android”</li>
+<li>​    }, {</li>
+<li>​        “q”: “辨析以下行为是否正确大学生小刘把账号分享给女友使用，女友随后告诉了闺蜜和室友，闺蜜和室友进行进一步传播，并使得一个班都在使用同一个账号”,</li>
+<li>​        “a”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 公益服播放卡顿怎么办？”,</li>
+<li>​        “a”: “换服务器、换线路、挂梯子”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果emby官方客户端出现付费解锁的提示，最快解锁的方法是?”,</li>
+<li>​        “e”: “支付54刀/340元”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Kodi 可以在哪些平台上安装？”,</li>
+<li>​        “a”: “几乎所有主流平台上都能安装”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何获取最新的线路信息”,</li>
+<li>​        “e”: “私聊厂妹发送/status|私聊厂妹发送/xianlu”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果你人为地将问题搞得难以阅读，它多半会被忽略将不会得到回答对吗？”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当找到的解决办法都是外语看不懂时怎么办？”,</li>
+<li>​        “a”: “使用一键翻译”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何更好的回答问题”,</li>
+<li>​        “a”: “态度和善 引导解决”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Infuse 可以在哪购买？”,</li>
+<li>​        “a”: “App Store”</li>
+<li>​    }, {</li>
+<li>​        “q”: “小张在浏览谷歌的时候，发现有博主利用公益服进行引流 同时公布了账号 密码和线路 他该怎么办”,</li>
+<li>​        “a”: “联系公益服管理员”</li>
+<li>​    }, {</li>
+<li>​        “q”: “你在群里发什么不会被管理员立刻ban？”,</li>
+<li>​        “a”: “发emby客户端的牢骚”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在群里问wiki里有解决方法的问题会怎么样？”,</li>
+<li>​        “a”: “被要求出门右拐爱优腾”</li>
+<li>​    }, {</li>
+<li>​        “q”: “下面哪些设备不支持Emby？”,</li>
+<li>​        “a”: “Windows Phone”</li>
+<li>​    }, {</li>
+<li>​        “q”: “获得新的账号后如何修改三个服务器的登录密码”,</li>
+<li>​        “e”: “登录任意一个服务器修改即可”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在厂妹那考核时，遇到傻逼问题应该怎么办？”,</li>
+<li>​        “a”: “求证后确定此题有误，向群主举报”</li>
+<li>​    }, {</li>
+<li>​        “q”: “所有问题一律不能带情绪提问对吗？”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在最新版的机器人中，新注册的账号可以自行设置密码，不再是随机密码。”,</li>
+<li>​        “e”: “正确”,</li>
+<li>​        “a”: “错误”</li>
+<li>​    }, {</li>
+<li>​        “q”: “群里谈论什么话题可能会遭到封禁”,</li>
+<li>​        “a”: “emby plex 付费服务器”</li>
+<li>​    }, {</li>
+<li>​        “q”: “请问一下，我的电脑上不能播放emby怎么解决？谢谢对于此提问，以下说法正确的是”,</li>
+<li>​        “a”: “问题无意义描述不清晰”</li>
+<li>​    }, {</li>
+<li>​        “q”: “为什么在公共群组中提问，会比私聊大佬提同样的问题更容易得到有用的回答？”,</li>
+<li>​        “e”: “潜在的回复者多”</li>
+<li>​    }, {</li>
+<li>​        “q”: “终点站的影片，中文外挂字幕名称是什么？”,</li>
+<li>​        “a”: “Und”</li>
+<li>​    }, {</li>
+<li>​        “q”: “有想看的电影和剧集，服务器上却没有，应该怎么办？”,</li>
+<li>​        “a”: “在反馈表单反映”</li>
+<li>​    }, {</li>
+<li>​        “q”: “良好而恰当的标题往往能吸引问题解决者的到来，过于危言耸听或者没有逻辑的标题反而会加剧对提问者的反感。”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在macOS 上安装EMBY Electron客户端，需要先执行一条命令 &rdquo;brew install mpv&ldquo;，这个命令的作用是？”,</li>
+<li>​        “a”: “安装mpv播放器”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益服一般是什么时候开放注册呢?”,</li>
+<li>​        “a”: “随缘.去按摩都不能每次赶上头牌”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提出一个问题时，提倡用最简单的语言表达出最多的信息有什么好处？”,</li>
+<li>​        “e”: “可能精简中找到解决办法和思路|使你更有可能得到有用的答案”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下属于无效的问题是？”,</li>
+<li>​        “a”: “都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪些方式可能增加连接emby公益服的速度”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “我现在有了公益服的帐号，我可以分享给谁?”,</li>
+<li>​        “a”: “你身边的朋友、家人”</li>
+<li>​    }, {</li>
+<li>​        “q”: “FHD和HD的主要区别是？”,</li>
+<li>​        “e”: “帧率”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby是否支持DLNA？”,</li>
+<li>​        “a”: “支持”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果群内提问者的问题长久，或者多次得不到回答，那么这时，提问者需要考虑”,</li>
+<li>​        “a”: “是否问题足够简单，不需要回答”</li>
+<li>​    }, {</li>
+<li>​        “q”: “本公益服的 公益 之含义？a）不光要免费分享资源给你，我还要当你的保姆，耐心回答你的所有问题，而且在你考试不通过或者注册账户不成功的时候听你的抱怨。b）公益就应该零门槛，就好像医生义诊的时候，医生不单要免费看病，而且所有的药费都要医生掏腰包，而且医生还得保证把病治好，否则就是假公益。c）我可以免费让你分享我的劳动成果但是你至少不要觉得一切都是理所当然的。 d）以上都正确”,</li>
+<li>​        “a”: “C)”</li>
+<li>​    }, {</li>
+<li>​        “q”: “淘宝购买的 Infuse 能否使用 Emby 公益服？”,</li>
+<li>​        “e”: “可以”,</li>
+<li>​        “a”: “不能”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在何种情况下提问很可能被忽略掉？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “群里忌讳哪些人？”,</li>
+<li>​        “a”: “全部选项”</li>
+<li>​    }, {</li>
+<li>​        “q”: “注册 Emby 公益服账号应该找谁？”,</li>
+<li>​        “a”: “<a target="_blank" rel="noopener" href="https://t.me/EmbyPublicBot&quot;">https://t.me/EmbyPublicBot&quot;</a></li>
+<li>​    }, {</li>
+<li>​        “q”: “使用途中遇到問題該怎麼做?”,</li>
+<li>​        “a”: “先看wiki找找答案”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在 iPhone 上购买了 Emby 官方客户端的播放权，能否在 iPad 上恢复购买？”,</li>
+<li>​        “a”: “可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果大妹子不理你，你应该怎么办？”,</li>
+<li>​        “a”: “跟二妹，三妹玩”</li>
+<li>​    }, {</li>
+<li>​        “q”: “reset是机器人的什么命令？”,</li>
+<li>​        “a”: “密码重置”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Amazon Fire TV是基于哪个系统修改而成的？”,</li>
+<li>​        “a”: “安卓”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在你准备要通过telegram提出技术问题前，需要做什么？”,</li>
+<li>​        “a”: “查看wiki和置顶以找到答案”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在使用Emby终点站的群组聊天中，经常抬头可以帮助”,</li>
+<li>​        “a”: “看到置顶消息和群名”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在《提问的智慧》里，如果你看不懂回应，你不应该做什么？（答案详见：<a target="_blank" rel="noopener" href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md%EF%BC%89&quot;">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md）&quot;</a>,</li>
+<li>​        “e”: “尝试阅读手册以找到答案|尝试上网搜索答案|尝试FAQ以找到答案”,</li>
+<li>​        “a”: “立刻要求对方解释”</li>
+<li>​    }, {</li>
+<li>​        “q”: “哪一个是正式且低成本获取infuse的途径?”,</li>
+<li>​        “a”: “申请成为infuse测试员”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在 iOS 上购买了 Emby 官方客户端的播放权，能否在 macOS 上恢复购买？”,</li>
+<li>​        “a”: “不能”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当你遇到问题在各种尝试后，还是不能解决。准备去群里发出提问，你需要如何描述你的问题？”,</li>
+<li>​        “a”: “说明系统客户端几号厂妹线路电影”</li>
+<li>​    }, {</li>
+<li>​        “q”: “终点站是否可以通过捐赠获得本服务器VIP？”,</li>
+<li>​        “a”: “不可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby公益服要求考核是为了：”,</li>
+<li>​        “a”: “所有选项皆是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何对群内解答者的回答内容进行解析”,</li>
+<li>​        “a”: “终点站wiki的内容结合”</li>
+<li>​    }, {</li>
+<li>​        “q”: “有些提问即使你很急也不要在标题写紧急，这是为什么？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “三个服务器的播放记录同步吗”,</li>
+<li>​        “a”: “不同步”</li>
+<li>​    }, {</li>
+<li>​        “q”: “下面关于公益服的提问是否合理我的电信宽带500M 油管跑分10w为什么看不了公益服 是不是服务器挂了”,</li>
+<li>​        “a”: “不合理”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于 Emby 公益服几台服务器描述正确的是？”,</li>
+<li>​        “e”: “修改一台服务器的密码后，其它服务器密码也会同时修改”,</li>
+<li>​        “a”: “服务器之间数据是相互独立的”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Emby 的 iOS 客户端付费解锁播放权限时应该购买哪一个（中国区 App Store）？”,</li>
+<li>​        “e”: “45 元的”,</li>
+<li>​        “a”: “30 元的”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果发现有人售卖公益服账号应该怎办？”,</li>
+<li>​        “a”: “和群里的管理们举报”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在群里提问得到RTFM或STFW的回答时怎么办？”,</li>
+<li>​        “a”: “问题过于简单阅读手册或谷歌”</li>
+<li>​    }, {</li>
+<li>​        “q”: “电视剧集中，为了规避风险，TXB最有可能代表的是以下哪个公司或平台？”,</li>
+<li>​        “e”: “爱奇艺独播剧场”,</li>
+<li>​        “a”: “TVB”</li>
+<li>​    }, {</li>
+<li>​        “q”: “Kodi应该装什么插件？”,</li>
+<li>​        “e”: “Emby Plugin”</li>
+<li>​    }, {</li>
+<li>​        “q”: “破解Emby Theater windows的过程中，main.js里的tv.emby.media应该更改为:”,</li>
+<li>​        “a”: “tv.emby.neko.re”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当你在公益服使用中发现问题无法解决，但是又不敢在群里表达自己的疑问的时候，你应该怎么做”,</li>
+<li>​        “a”: “翻看聊天记录并Google”</li>
+<li>​    }, {</li>
+<li>​        “q”: “什么人才能创建 Emby 公益服账号？”,</li>
+<li>​        “a”: “Telegram 用户”</li>
+<li>​    }, {</li>
+<li>​        “q”: “infuse添加https线路正常，但添加http线路时提示用户名或密码错误应该怎么办”,</li>
+<li>​        “a”: “尝试升级infuse的版本解决”</li>
+<li>​    }, {</li>
+<li>​        “q”: “佩服大佬的公益做法想出一分力要怎么做！”,</li>
+<li>​        “a”: “以上三项”</li>
+<li>​    }, {</li>
+<li>​        “q”: “电脑浏览器播放卡顿提示或画音不同如何解决”,</li>
+<li>​        “a”: “使用emby相关客户端播放”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在emby客户端使用方面如果出现问题，除了群组内部提问，你还有什么方式可以学习？”,</li>
+<li>​        “a”: “以上都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “神奇女侠的创作者是谁？”,</li>
+<li>​        “e”: “斯坦·李老爷子”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当群友讨论一个未解决的问题，而你解决了这个问题，这种情况下我们应该”,</li>
+<li>​        “a”: “分享自己的解决经验供参考”</li>
+<li>​    }, {</li>
+<li>​        “q”: “为什么晚上中国大陆观看公益服速度可能会偏慢”,</li>
+<li>​        “e”: “公益服服务器爆炸”,</li>
+<li>​        “a”: “出国流量拥挤”</li>
+<li>​    }, {</li>
+<li>​        “q”: “HEVC的另一种称呼”,</li>
+<li>​        “e”: “H.266”</li>
+<li>​    }, {</li>
+<li>​        “q”: “公益服的客服是谁”,</li>
+<li>​        “a”: “没有客服”</li>
+<li>​    }, {</li>
+<li>​        “q”: “入群回答问题错误被机器人踢出后，几分钟后可以再次申请入群？”,</li>
+<li>​        “a”: “2分钟”</li>
+<li>​    }, {</li>
+<li>​        “q”: “提问者在解答者回应之前，将其可能提出的各个问题进行预演，回应，可能使问题的解决更加有效率”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果使用公益服期间遇到卡顿，你应该做什么?”,</li>
+<li>​        “a”: “尝试富强/更换线路”</li>
+<li>​    }, {</li>
+<li>​        “q”: “判断以下是否是一个良好提问我使用Windows电脑，在中国联通200M宽带环境下，单线程代理测试158mbps用kodi+embycon进行播放 但是画面加载不断卡顿，请问是什么原因”,</li>
+<li>​        “a”: “是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “发现播放卡顿想提出问题前要做到什么？”,</li>
+<li>​        “a”: “以上都对”</li>
+<li>​    }, {</li>
+<li>​        “q”: “emby支持以下哪种编解码”,</li>
+<li>​        “a”: “HEVC”</li>
+<li>​    }, {</li>
+<li>​        “q”: “关于Emby公益服制作的破解版IOS客户端的安装方式有哪些？”,</li>
+<li>​        “a”: “以上都可以”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如何反馈字幕缺失或海报内容不符等问题”,</li>
+<li>​        “a”: “填写表单反馈”</li>
+<li>​    }, {</li>
+<li>​        “q”: “使用 Kodi 观看 Emby 公益服是否需要付费？”,</li>
+<li>​        “a”: “不需要”</li>
+<li>​    }, {</li>
+<li>​        “q”: “支持4k60hz的接口是”,</li>
+<li>​        “a”: “hdmi2.0”</li>
+<li>​    }, {</li>
+<li>​        “q”: “李明直连厂妹时，发现速度极慢，于是李明使用代理连接厂妹，但发现使用代理后无法连接厂妹，下列选项中最有可能导致上述情况的是”,</li>
+<li>​        “a”: “代理”</li>
+<li>​    }, {</li>
+<li>​        “q”: “问题提出者所拥有的哪种特质，能够更让解答者有意愿进行问题的回答”,</li>
+<li>​        “e”: “所有选项都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “本群不会有人蓄意讽刺和攻击你除非你的问题白痴到惹人厌烦”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “英语俗语&quot;and chill&quot;中, and之前正确的单词是什么？”,</li>
+<li>​        “a”: “NetFlix”</li>
+<li>​    }, {</li>
+<li>​        “q”: “水管工新添了新的线路，你应该找谁要新的线路?”,</li>
+<li>​        “a”: “跟厂妹获取线路”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当你遇到个人无法解决的问题向群组求助，他人要求你描述发生经过，你应该？A、在群组中根据自己的记忆进行文字表述B、在群组中使用录屏的方式将问题复现C、PM他人，根据自己的记忆进行文字表述D、PM他人，并使用录屏的方式将问题复现”,</li>
+<li>​        “a”: “B”</li>
+<li>​    }, {</li>
+<li>​        “q”: “tg求资源表格每天限求（）每周限求（）？”,</li>
+<li>​        “e”: “1，5”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果别人的提问不小心冒犯了你，你该如何回应？”,</li>
+<li>​        “a”: “平静的反应”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪种提问方式更容易获得别人的帮助”,</li>
+<li>​        “a”: “详细说明线路、节点、客户端等”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当发现使用公益服存在的问题时，应该对情况进行详细描述，而不只是进行自行推测”,</li>
+<li>​        “a”: “正确”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪个选项代表全局模式”,</li>
+<li>​        “a”: “Global”</li>
+<li>​    }, {</li>
+<li>​        “q”: “乔布斯收购皮克斯之后制作了第一步由电脑制作的动画长片，这部电影的名字是什么？”,</li>
+<li>​        “a”: “玩具总动员”</li>
+<li>​    }, {</li>
+<li>​        “q”: “以下哪个命令是查看服务器状态？”,</li>
+<li>​        “a”: “status”</li>
+<li>​    }, {</li>
+<li>​        “q”: “当在群里发现有群友使用自己没有的线路，该怎么办”,</li>
+<li>​        “e”: “在群里询问新线路的地址”</li>
+<li>​    }, {</li>
+<li>​        “q”: “下列提问者的哪些因素会影响对他问题的解答”,</li>
+<li>​        “e”: “所有选项都是”</li>
+<li>​    }, {</li>
+<li>​        “q”: “如果要在路由器中设置强制代理某域名使用科学上网，应该添加的域名部分是？例如：https://<em>.</em>.*:443”,</li>
+<li>​        “a”: “<em>.</em>.*”</li>
+<li>​    }, {</li>
+<li>​        “q”: “在苹果生态里，除了infuse可以解决DTS音源播放问题，以下哪些软件也支持DTS音源的播放”,</li>
+<li>​        “a”: “nPlayer”</li>
+<li>​    }</li>
+<li>]</li>
+<li>;</li>
+</ol>
+
+  
+  
+  
+  <div class='footer'>
+    
+    
+    
+    
+    
+    <div class='copyright'>
+      <blockquote>
+        
+        
+        <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
+
+        
+        
+        
+        <p>本文永久链接是：<a href=https://erro.life/posts/2a9f78d3.html>https://erro.life/posts/2a9f78d3.html</a></p>
+        
+        
+      </blockquote>
+    </div>
+    
+    
+  </div>
+  
+  
+  
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2021-09-22T20:20:52+08:00">
+  <a class='notlink'>
+    <i class="fal fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2021年9月22日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%96%87%E6%A1%A3/" rel="nofollow"><i class="fal fa-hashtag fa-fw" aria-hidden="true"></i><p>文档</p></a></div>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://erro.life/posts/2a9f78d3.html&title=题库 - ErroLife&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://erro.life/posts/2a9f78d3.html&title=题库 - ErroLife&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://erro.life/posts/2a9f78d3.html&title=题库 - ErroLife&summary="
+          
+          >
+          
+            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </div>
+
+
+  
+  
+
+  
+  <div class="prev-next">
+    
+    <a class='prev' href='/posts/3843757c.html'>
+      <p class='title'><i class="fas fa-chevron-left" aria-hidden="true"></i>念青东-曲通c</p>
+      <p class='content'>
+
+1原文：https://mp.weixin.qq.com/s/lJpIs5-GFPAPumEiJQ8xXw
+
+18年的时候看到念青东-萨普线的帖子，萨普的山，海子，冰川太美了,我们原本计划的...</p>
+    </a>
+    
+    
+    <a class='next' href='/posts/eb54e328.html'>
+      <p class='title'>五府岗--2021年首发<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+      <p class='content'>
+
+1原文：https://mp.weixin.qq.com/s/R0xs5zc7LTmfQqDp5ce4SQ
+
+听说上车时被其他队的队友赶下车。我就纳闷了，其他徒步的怎么知道你包的车在那呀，然...</p>
+    </a>
+    
+  </div>
+  
+</article>
+
+
+
+
+  <article class="post white-box reveal shadow floatable" id="comments">
+    <p ct><i class='fal fa-comments'></i> 评论</p>
+    
+    <div id="valine_container" class="valine_thread">
+  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+</div>
+
+  </article>
+
+
+
+
+
+</div>
+      </div>
+      
+  
+  <footer class="footer clearfix">
+    
+    
+      
+        <div class='copyright'>
+        <p>Copyright © 2021 <a href="/">ErroLife</a></p>
+
+        </div>
+      
+    
+      
+        
+          <div><div><p>本站使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://volantis.js.org/" data-pjax-state="">Volantis</a> 作为主题 | 由 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/zh-cn/" data-pjax-state="">Hexo</a> 强力驱动</p> </div></div>
+        
+      
+    
+    
+      
+        <div class="github-badge">
+          <a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://hexo.io/" target="_blank" title="由 Hexo 强力驱动">
+          <span class="badge-subject">Powered</span><span class="badge-value" style="background-color:#007ec6;">Hexo</span>
+          </a>
+        </div>
+        
+        <div class="github-badge">
+          <a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://github.com/" target="_blank" title="静态网页托管于 GitHub Pages">
+          <span class="badge-subject">Host By</span><span class="badge-value" style="background-color:#4dc820;">GitHub</span>
+          </a>
+        </div>
+        
+        <div class="github-badge">
+          <a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://www.aliyun.com/" target="_blank" title="阿里云提供域名相关服务">
+          <span class="badge-subject">DNS</span><span class="badge-value" style="background-color:#8833d7;">Aliyun</span>
+          </a>
+        </div>
+        
+        <div class="github-badge">
+          <a style="color:#fff" rel="external nofollow noopener noreferrer" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" title="又拍云提供CDN加速服务">
+          <span class="badge-subject">CDN</span><span class="badge-value" style="background-color:#ce651b;">又拍云</span>
+          </a>
+        </div>
+        
+      
+  </footer>
+
+
+      <a class="s-top fas fa-arrow-up fa-fw" href='javascript:void(0)'></a>
+    </div>
+  </div>
+  <div>
+    <!-- required -->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".md").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("class", "fancybox");
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      // 背景层
+      var bgDiv = document.createElement("div");
+      $(bgDiv).addClass("bg");
+      if ($(this).attr('bg')) {
+        $(bgDiv).css('background', $(this).attr('bg'));
+      }
+      $(this).wrap(bgDiv); // 背景层
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".md").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+
+<!-- internal -->
+
+  
+  
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        var imgs=["https://picup.heson10.com/img/upyun/home_top_bg.webp", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/004.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/005.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/006.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/012.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/016.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/019.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/033.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/034.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/035.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/038.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/039.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/042.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/051.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/052.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/054.jpg", "https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/056.jpg"];
+        if ('true' == 'true') {
+          function shuffle(arr){
+            /*From countercurrent-time*/
+            var n = arr.length;
+            while(n--) {
+              var index = Math.floor(Math.random() * n);
+              var temp = arr[index];
+              arr[index] = arr[n];
+              arr[n] = temp;
+            }
+          }
+          shuffle(imgs);
+        }
+        if ('') {
+          $('').backstretch(
+            imgs,
+          {
+            duration: "10000",
+            fade: "1500"
+          });
+        } else {
+          $.backstretch(
+            imgs,
+          {
+            duration: "10000",
+            fade: "1500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+
+
+  <script>
+  function loadIssuesJS() {
+    if ($(".md").find(".issues-api").length == 0) return;
+    setTimeout(function() {
+      loadScript('/js/issues.js');
+    }, 1);
+  };
+  $(function () {
+    loadIssuesJS();
+  });
+</script>
+
+
+
+<!-- optional -->
+
+  <script>
+  
+  var SEARCH_SERVICE = "hexo" || "hexo";
+  var ROOT = "/" || "/";
+  if (!ROOT.endsWith('/')) ROOT += '/';
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+<script>
+  // https://www.npmjs.com/package/vanilla-lazyload
+  // Set the options globally
+  // to make LazyLoad self-initialize
+  window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 0
+  };
+  // Listen to the initialization event
+  // and get the instance of LazyLoad
+  window.addEventListener(
+    "LazyLoad::Initialized",
+    function (event) {
+      window.lazyLoadInstance = event.detail.instance;
+    },
+    false
+  );
+  document.addEventListener('DOMContentLoaded', function () {
+    lazyLoadInstance.update();
+  });
+  document.addEventListener('pjax:complete', function () {
+    lazyLoadInstance.update();
+  });
+</script>
+
+
+
+
+  
+  
+    <script async src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+        $.message({
+            title: '复制成功',
+            message: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+        });
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+<script type="text/javascript">
+  function pjax_scrollrebeal() {
+    ScrollReveal().reveal('.l_main .reveal', {
+      distance: '32px',
+      duration: '800',
+      interval: '20',
+      scale: '1',
+      easing: 'ease-out'
+    });
+  }
+  $(function () {
+    pjax_scrollrebeal();
+  });
+</script>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3/dist/av-min.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
+
+
+
+<script>
+  var GUEST_INFO = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link'.split(',').filter(function (item) {
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var REQUIRED_FIELDS = ['nick', 'mail', 'link'];
+  var requiredFields = 'nick,mail'.split(',').filter(function (item) {
+    return REQUIRED_FIELDS.indexOf(item) > -1
+  });
+
+  function emoji(path, idx, ext) {
+    return path + "/" + path + "-" + idx + "." + ext;
+  }
+
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+
+  function pjax_valine() {
+    if(!document.querySelectorAll("#valine_container")[0])return;
+
+    let pagePlaceholder = $.trim($('#pjax-comment-placeholder').text()) || "填写邮箱会收到回复提示！粘贴图片可直接上传~";
+
+    let path = $.trim($('#pjax-comment-path').text());
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+
+    var valine = new Valine();
+    valine.init({
+      el: '#valine_container',
+      meta: meta,
+      placeholder: pagePlaceholder,
+      path: path,
+      appId: "1j3ayzrAcsuO60af8zkD8IpS-MdYXbMMI",
+      appKey: "HxtXQgPBxyoj3fDnBezIptgH",
+      pageSize: '10',
+      avatar: 'robohash',
+      lang: 'zh-cn',
+      visitor: 'true',
+      highlight: 'true',
+      mathJax: 'false',
+      enableQQ: 'true',
+      requiredFields: requiredFields,
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/valine/',
+      emojiMaps: emojiMaps,
+      master: '[8b2c93d78d1754ba69e1c7ed2ea75b32]',
+      friends: '[104e5bfa98048a2dac66f28ca4d4d846,e399c5e8f4b4b8b86fc88e2b5bd04497,32d39099d6da89788fe3827cb90b1eb7]'
+    })
+  }
+
+  function newcomment() {
+
+function queryLeanCloud(k) {
+  let root = this;
+  let len = arguments.length;
+  if (len == 1) {
+    let notExist = new AV.Query("Comment");
+    notExist.doesNotExist('rid');
+    let isEmpty = new AV.Query("Comment");
+    isEmpty.equalTo('rid', '');
+    let q = AV.Query.or(notExist, isEmpty);
+    if (k === '*') q.exists('url');
+    else q.equalTo('url', decodeURI(k));
+    q.addDescending('createdAt');
+    q.addDescending('insertedAt');
+    return q;
+  } else {
+    let ids = JSON.stringify(arguments[1]).replace(/(\[|\])/g, '');
+    let cql = `select * from ${root['config']['clazzName']} where rid in (${ids}) order by -createdAt,-createdAt`;
+    return AV.Query.doCloudQuery(cql)
+  }
+}
+var valine = new Valine({
+      el: '#valine_container_ba',
+      notify: false,
+      verify: false,
+      app_id: '1j3ayzrAcsuO60af8zkD8IpS-MdYXbMMI',
+      app_key: 'HxtXQgPBxyoj3fDnBezIptgH',
+      placeholder: '发表您的意见，让我们一起交流，共同提高吧...',
+      serverURLs: 'https://1j3ayzrA.api.lncldglobal.com'
+});
+
+//判断博主，heson改为自己的昵称
+function bozhu(e){
+    if (e == "heson"){
+        nick = e + '[博主]'
+        return nick;
+    } else {
+      return e
+    }
+}
+
+//判断网址
+function wangzhi(e){
+    http = e.slice(0,4)
+    https = e.slice(0,5)
+    if (http == "http" || https == "https" ){
+         return e
+    } else if (e == "" || e == null || e == undefined){
+      return e
+    } else {
+      e = 'http://'+ e
+      return e
+    }
+}
+
+
+
+
+//查询评论
+valine.Q('*').limit(7).find().then(function (comments) {
+  var hotComments = $("#hot-comments");
+  for (var i = 0; i < comments.length; i++) {
+    if (i === 0) {
+      console.log(comments[0]);
+    }
+    var nick = bozhu(comments[i]._serverData.nick);
+    var content = comments[i]._serverData.comment;
+    var newcontent = content.replace(/<[^>]+>/g,"").replace(/:.*?:/g,"[表情]").substring(0, 50);
+    var url = comments[i]._serverData.url;
+    var link = wangzhi(comments[i]._serverData.link);
+    var updatedAt = timeago(comments[i].updatedAt);
+    var commentId = '#' + comments[i].id;
+    hotComments.append('<div class="card-comment-item"><div class="item-header-text"><a href="'+ link +'" target="_blank" rel="nofollow noopener noreferrer" class="newcomment" >' + nick + '</a>&nbsp;发表于' + updatedAt + '</div><div class="item-text"><a href="' + url + commentId +'"  rel="nofollow" style="color:#717171" class="comments-detail" >' + newcontent + '</a></div></div>');
+  }
+});
+};
+
+
+
+  $(function () {
+    pjax_valine();
+    newcomment();
+  });
+</script>
+
+
+
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5/lib/darkmode-js.min.js" aysc></script>
+
+<script type="text/javascript">
+function getClientHeight(){
+  var clientHeight=0;
+  if(document.body.clientHeight&&document.documentElement.clientHeight){
+  var clientHeight = (document.body.clientHeight<document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+  }else{
+  var clientHeight = (document.body.clientHeight>document.documentElement.clientHeight)?document.body.clientHeight:document.documentElement.clientHeight;
+  }
+  return clientHeight;
+}
+function supportCss3(style) {
+  var prefix = ['webkit', 'Moz', 'ms', 'o'],
+  i,
+  humpString = [],
+  htmlStyle = document.documentElement.style,
+  _toHumb = function (string) {
+  return string.replace(/-(\w)/g, function ($0, $1) {
+  return $1.toUpperCase();
+  });
+  };
+  for (i in prefix)
+  humpString.push(_toHumb(prefix[i] + '-' + style));
+  humpString.push(_toHumb(style));
+  for (i in humpString)
+  if (humpString[i] in htmlStyle) return true;
+  return false;
+};
+//配置信息
+var options = {
+  bottom: '32px',
+  right: 'unset',
+  left: '16px',
+  time: '0s',
+  mixColor: '#f4f4f4',
+  backgroundColor: '#f4f4f4',
+  buttonColorDark: '#333',
+  buttonColorLight: '#ddd',
+  saveInCookies: true,
+  label: '',
+  autoMatchOsTheme: true
+};
+// 卡片兼容处理 mix-blend-mode 与 effect: [blur] 冲突
+
+function pjax_darkmodejs(){
+  
+}
+// mix-blend-mode support?
+if(supportCss3('mix-blend-mode')){
+  window.darkmode = new Darkmode(options);
+  
+  window.darkmode.showWidget();
+  
+  pjax_darkmodejs();
+}
+////////////////Development///////////////////////
+//////////////darkmode模式切换////////////////////
+//window.darkmode.toggle();                     //
+//////////////darkmode模式判断////////////////////
+//console.log(window.darkmode.isActivated())    //
+//////////////////////////////////////////////////
+</script>
+
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+
+
+
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+  
+
+
+
+
+<!-- more -->
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#pjax-container",
+          "#pjax-header-nav-list"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+      window.stop(); // 相当于点击了浏览器的停止按钮
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = ["/bb/"];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      $.fancybox.close();    // 关闭弹窗
+      $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
+      $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
+
+      // 解绑事件 避免重复监听
+      $('.s-top').unbind('click');
+      $('.menu a').unbind('click');
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+      window.ShowLoading();
+    });
+
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+       
+
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+      try{
+        pjax_fancybox();
+        
+          
+          if ('') {
+            $('').backstretch("resize");
+            if($('.cover-wrapper').is(':hidden')){
+              $('.cover-backstretch').backstretch("pause");
+            }else{
+              $('.cover-backstretch').backstretch("next");
+            }
+          } else {
+            $.backstretch("resize");
+            if($('.cover-wrapper').is(':hidden')){
+              $.backstretch("pause");
+            }else{
+              $.backstretch("next");
+            }
+          }
+        
+        
+        document.querySelectorAll('pre code').forEach((block) => {
+          hljs.highlightBlock(block);
+        });
+        
+        
+          pjax_scrollrebeal();
+        
+        
+          if (typeof IssuesAPI == "undefined") {
+            loadIssuesJS();
+          }
+        
+        
+          pjax_initCopyCode();
+        
+        
+          pjax_valine();
+          newcomment();
+        
+        
+        
+        
+        
+          pjax_darkmodejs();
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.HideLoading();
+      window.location.href = e.triggerElement.href;
+    });
+</script>
+
+    
+  </div>
+</body>
+</html>
